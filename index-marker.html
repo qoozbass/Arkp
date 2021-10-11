@@ -4,13 +4,25 @@
 <body style="margin: 0px; overflow: hidden">
   <a-scene embedded arjs="sourceType: webcam;">
     <!--<a-marker preset="hiro">-->
-    <a-marker-camera type='pattern' url='./assets/model/parpo/marker/pattern-prapo_marker.patt'>
+    <a-marker-camera
+      type="pattern"
+      url="./assets/model/parpo/marker/pattern-prapo_marker.patt"
+    >
       <!-- Adding an OBJ file to an AR Project-->
-      <a-entity
+      <!--<a-entity
         obj-model="obj: url(./assets/model/cottage/cottage_obj.obj); 
                    mtl: url(./assets/model/cottage/cottage_obj.mtl)"
         rotation="0 0 0"
-        scale="0.2 0.2 0.2"
+        scale="0.1 0.1 0.1"
+      >
+      </a-entity>-->
+
+      <!-- Adding an OBJ file to an AR Project-->
+      <a-entity
+        obj-model="obj: url(./assets/model/parpo/บ้านพะโป้21064.obj); 
+                   mtl: url(./assets/model/parpo/บ้านพะโป้21064.mtl)"
+        rotation="0 0 0"
+        scale="0.1 0.1 0.1"
       >
       </a-entity>
     </a-marker-camera>
