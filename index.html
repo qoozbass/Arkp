@@ -19,6 +19,17 @@
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
         
         <a-camera gps-camera rotation-reader></a-camera>
-		<a-entity gltf-model="./assets/model/magnemite/scene.gltf" rotation="180 180 180" scale="0.5 0.5 0.5" gps-entity-place="longitude: 99.513982; latitude: 16.451733;" animation-mixer/>
+		<!--<a-entity gltf-model="./assets/model/magnemite/scene.gltf" rotation="270 0 0" scale="0.5 0.5 0.5" gps-entity-place="longitude: 99.513982; latitude: 16.451733;" animation-mixer/>-->
+
+
+        <a-entity
+        obj-model="obj: url(./assets/model/parpo/Pranpapo.obj);
+                   mtl: url(./assets/model/parpo/Pranpapo.mtl)"
+        rotation="270 0 0"
+        scale="0.1 0.1 0.1"
+        gps-entity-place="longitude: 99.492905; latitude: 16.484543;"
+      >
+      </a-entity>
+
 	</a-scene>
 </body>
